@@ -13,12 +13,16 @@ let [counter, setCounter] = useState(15) // it is a hook there are multiple hook
   // console.log("clicked",counter);
   
   // counter = counter + 1
-  if(counter<20)
-  setCounter(counter+1)
+  // if(counter<20)
+  setCounter(prevCounter => prevCounter+1)
+ setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+
  }
 
  const removeValue = () => {
-  if(counter>0)
+  // if(counter>0)
   setCounter(counter-1)
   
  }
