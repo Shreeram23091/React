@@ -15,7 +15,7 @@ let [counter, setCounter] = useState(15) // it is a hook there are multiple hook
   // counter = counter + 1
   // if(counter<20)
   setCounter(prevCounter => prevCounter+1)
- setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
   setCounter(prevCounter => prevCounter+1)
   setCounter(prevCounter => prevCounter+1)
 
